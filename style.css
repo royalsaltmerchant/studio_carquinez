@@ -1,0 +1,38 @@
+:root {
+  --bg-color: #241e1b;
+  --bg-nav-color: #754f3b;
+  --bg-nav-color-dark: rgb(40, 50, 65);
+  --white: #e2e2e2;
+  --gray: #b8b8b8;
+  --blue: #80d5ff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--white);
+  background-color: var(--bg-color);
+  font-family: serif;
+  font-size: 20px;
+  overscroll-behavior: none;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+nav {
+  font-family: monospace;
+  padding: 8px;
+  font-size: 15px;
+  display: flex;
+  background-color: var(--bg-nav-color);
+}
+
+nav a {
+  color: var(--white);
+  text-decoration: none;
+}
