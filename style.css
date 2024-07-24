@@ -39,6 +39,22 @@ li {
   margin-bottom: 10px;
 }
 
+.container {
+  padding: 20px;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container img {
+  padding-bottom: 10px;
+}
+
+.img-team {
+  max-width: 800px;
+}
+
 .custom-bullets {
   list-style-type: none;
 }
@@ -170,12 +186,4 @@ footer a {
 footer a:hover {
   color: var(--orange);
   text-decoration: underline;
-}
-
-.container {
-  padding: 20px;
-  line-height: 1.6;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
