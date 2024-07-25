@@ -35,6 +35,11 @@ img {
   border-radius: .3rem;
 }
 
+p {
+  margin-top: .3rem;
+  margin-bottom: .3rem;
+}
+
 small {
   font-size: 12px;
 }
