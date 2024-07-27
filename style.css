@@ -30,6 +30,11 @@ img {
   border-radius: .3rem;
 }
 
+p {
+  margin-top: .3rem;
+  margin-bottom: .3rem;
+}
+
 small {
   font-size: 12px;
 }
@@ -42,6 +47,22 @@ ul {
 
 li {
   margin-bottom: 10px;
+}
+
+.container {
+  padding: 20px;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container img {
+  padding-bottom: 10px;
+}
+
+.img-team {
+  max-width: 800px;
 }
 
 .custom-bullets {
